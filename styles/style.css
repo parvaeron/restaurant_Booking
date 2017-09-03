@@ -1,0 +1,60 @@
+*{
+ box-sizing: border-box;
+}
+
+
+
+body{
+    color: black;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/city.00_jpg_srb");
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form-control{
+    width: 30%;
+}
+
+form{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.nav-pills>li.active>a{
+    width: 10em;
+    background-color: black;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+
+header{
+    background: black;
+    position: relative;
+    color: #c8970b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    border-style: solid;
+    border-width: thin;
+    border-color: #c8970b;
+    margin-top: 1em;
+}
+
+.content{
+    position: relative;
+    margin-top: 4em;
+    margin-left: 3em;
+}
+
+.smallInput{
+    width: 15%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
